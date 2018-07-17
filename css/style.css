@@ -1,0 +1,88 @@
+/*@import url('https://fonts.googleapis.com/css?family=Quicksand');*/
+
+body {
+	background: #181e29;
+	font-family: 'Quicksand', sans-serif;
+}
+#view {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+#result {
+	display: flex;
+	background: #7e75f3;
+	width: 400px;
+	height: 150px;
+}
+#result span {
+	align-self: center;
+	text-align: right;
+	font-size: 100px;
+	color: white;
+	margin-right: 40px;
+	width: 360px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+#input {
+	background: white;
+	height: 100px;
+	width: 400px;
+}
+#input input {
+	border: 0;
+	width: 150px;
+	margin-left: 50px;
+	/*letter-spacing: 10px;*/
+	font-size: 30px;
+	text-align: right;
+}
+#clear {
+	text-transform: uppercase;
+	font-size: 26px;
+	color: white;
+	height: 70px;
+	width: 130px;
+	border-radius: 0;
+	border: 0;
+	background: #50d14e;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+#buttons {
+	background: #3d4354;
+	height: 300px;
+	width: 400px;
+	color: white;
+	font-size: 30px;
+}
+td {
+	width: 400px;
+    border: 1px solid #fff9f91a;
+}
+table {
+	height: 300px;
+	text-align: center;
+    border-collapse: collapse;
+    cursor: pointer;
+}
+#show {
+	text-transform: uppercase;
+	font-size: 26px;
+	color: white;
+	height: 70px;
+	width: 180px;
+	border-radius: 0;
+	border: 0;
+	background: #7e75f3;
+}
+.db {
+	margin-left: 100px;
+}
+#db {
+	visibility: hidden;
+	color: white;
+	margin-top: 50px;
+	font-size: 36px;
+}
